@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi Portafolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="main-content">
+<div id="main-content">
+
+    <!-- Navegación -->
+  <!-- NAV -->
+  <nav class="navbar hidden">
+    <div class="nav-container">
+      <div class="logo"><img class="logo-img" src="/logo.png" alt=""></div>
+      <div class="burger" id="burger">&#9776;</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#">Projects</a></li>
+        <li><a href="/about.html">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+    <!-- Encabezado -->
+    <header class="main-header cinematic-section fade-up ">
+  <div class="header-left">
+    <div class="text-container">
+      <p class="header-accent">Hello</p>
+      <h1>I´m Arnoldo Magaña <br> a Developer and UX Designer <br>from México.</h1>
+    </div>
+    <a href="#contact">
+    <button class="header-button-left">Get in touch</button>
+    </a>
+  </div>
+
+      <div class="header-right">
+      <div class="image-container">
+          <img src="/gear.jpg" alt="Mi imagen" />
+          <a href="ruta/al/archivo.pdf" target="_blank">
+            <button class="header-button-right image-button">Download CV</button>
+          </a>
+      </div>
+      </div>
+    </header>
+
+    <!-- Proyectos -->
+    <section class="projects-section projects-section cinematic-section fade-up">
+    <h2>Projects</h2>
+    <div class="projects-grid"></div>
+  </section>
+
+
+    <!-- Footer -->
+  <footer class="main-footer cinematic-section fade-up" id="contact">
+    <div class="footer-content">
+      <div class="footer-column about">
+        <p>
+          Thank you for visiting my portfolio! Want to work with me? Connect or send a message.
+        </p>
+      </div>
+      <div class="footer-column links">
+        <h3>Follow Me</h3>
+        <ul>
+          <li><a href="www.linkedin.com/in/amcernas">Linkedin</a></li>
+        </ul>
+      </div>
+      <div class="footer-column contact">
+        <h3>Contact Me</h3>
+        <p>elswordmon@gmail.com</p>
+        <p>+52 312 213 6614</p>
+      </div>
+    </div>
+
+    <div class="footer-buttons">
+        <a href= "mailto: elswordmon@gmail.com" class="boton footer-button-link"> 
+          <button class="footer-btn red">Message Me</button>
+        </a>
+        <a href="ruta/al/archivo.pdf" target="_blank" class="boton footer-button-link">
+          <button class="footer-btn outline">Get my CV</button>
+        </a>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; Copyright Arnoldo Magaña 2025<br>
+    </div>
+
+    <a href="#" class="back-to-top">↑</a>
+  </footer>
+
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>

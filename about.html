@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Growmate - Case Study</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+</head>
+<body class="case-study-page">
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo"><img class="logo-img" src="/logo.png" alt=""></div>
+      <div class="burger" id="burger">&#9776;</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <a href="../index.html" class="back-button">
+      <i class="fas fa-arrow-left"></i> Back to Projects
+  </a>
+
+  <section class="split-section">
+  <div class="split-image">
+    <img src="/gear.jpg" alt="Descripción de la imagen">
+  </div>
+  <div class="split-text">
+    <h2>Hello</h2>
+    <p>
+      Hello my name is Arnoldo Magaña Cernas, I am a developer and UX designer from México. I studied Computer Systems Engineering, where I learned the basics of programming and web development and with time i've also grown an interest for design and user experience. I have worked on a few personal projects where I have been able to apply my skills in both development and design. My goal is to continue learning and growing in those fields, while contributing to projects that make a positive impact. <br><br> <strong>If you want to work with me, feel free to contact me through the section below.</strong> 
+    </p>
+  </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="main-footer" id="contact">
+    <div class="footer-content">
+      <div class="footer-column about">
+        <p>
+          Thank you for visiting my portfolio! Want to work with me? Connect or send a message.
+        </p>
+      </div>
+      <div class="footer-column links">
+        <h3>Follow Me</h3>
+        <ul>
+          <li><a href="www.linkedin.com/in/amcernas">Linkedin</a></li>
+        </ul>
+      </div>
+      <div class="footer-column contact">
+        <h3>Contact Me</h3>
+        <p>elswordmon@gmail.com</p>
+        <p>+52 312 213 6614</p>
+      </div>
+    </div>
+
+    <div class="footer-buttons">
+        <a href= "mailto: elswordmon@gmail.com" class="boton footer-button-link"> 
+          <button class="footer-btn red">Message Me</button>
+        </a>
+        <a href="ruta/al/archivo.pdf" target="_blank" class="boton footer-button-link">
+          <button class="footer-btn outline">Get my CV</button>
+        </a>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="social-icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-dribbble"></i>
+      </div>
+      <p>&copy; Copyright Arnoldo Magaña 2025<br>
+    </div>
+
+    <a href="#" class="back-to-top">↑</a>
+  </footer>
+
+  <script>
+    // Menú burger
+    const burger = document.querySelector('.burger');
+    const navLinks = document.querySelector('.nav-links');
+    
+    if(burger && navLinks) {
+      burger.addEventListener('click', () => {
+        navLinks.classList.toggle('show');
+      });
+    }
+
+    // Navbar sticky
+    window.addEventListener('scroll', () => {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+
+    // Inicializar navbar como visible
+    document.addEventListener('DOMContentLoaded', function() {
+      const navbar = document.querySelector('.navbar');
+      navbar.classList.add('visible');
+    });
+  </script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+</body>
+</html>
