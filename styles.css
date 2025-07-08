@@ -210,7 +210,7 @@ body {
 .main-footer {
   background-color: #111;
   color: #ccc;
-  padding: 4em 2em;
+  padding: 2em 2em;
   position: relative;
 }
 
@@ -922,8 +922,8 @@ img {
   align-items: center;
   justify-content: center;
   max-width: 1200px;
-  margin: 4rem auto;
-  padding: 2rem;
+  margin: 1rem auto;
+  padding: 1.5rem;
   gap: 2rem;
   overflow-x: hidden;
 }

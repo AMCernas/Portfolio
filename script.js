@@ -17,7 +17,7 @@ const projects = [
   },
   {
     title: 'GastroLab',
-    image: './assets/foodpoint/foodpoint-mockup2.png',
+    image: './assets/gastrolab/image-projects.png',
     caseFile: './cases/gastrolab.html'
   }
 ];
