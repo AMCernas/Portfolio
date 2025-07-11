@@ -22,7 +22,7 @@ const projects = [
   }
 ];
 
-// Elementos principales del DOM
+// dom selector
 const grid = document.querySelector('.projects-grid');
 
 // Dynamic rendering of project cards
