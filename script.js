@@ -1,4 +1,4 @@
-// Lista de proyectos
+// Projects Lists
 const projects = [
   {
     title: 'Growmate',
@@ -25,7 +25,7 @@ const projects = [
 // Elementos principales del DOM
 const grid = document.querySelector('.projects-grid');
 
-// Render dinámico de tarjetas de proyecto
+// Dynamic rendering of project cards
 projects.forEach(project => {
   const card = document.createElement('div');
   card.classList.add('project-card', 'cinematic-section', 'fade-up');
@@ -34,7 +34,7 @@ projects.forEach(project => {
     <h3>${project.title}</h3>
   `;
   
-  // Navegar a la página del proyecto al hacer clic
+  // Navigate to project page on click
   card.addEventListener('click', () => {
     window.location.href = project.caseFile;
   });
@@ -43,7 +43,7 @@ projects.forEach(project => {
   applyTiltEffect(card);
 });
 
-// Efecto Tilt en tarjetas
+// Tilt effect on cards
 function applyTiltEffect(card) {
   card.addEventListener('mousemove', (e) => {
     const rect = card.getBoundingClientRect();
@@ -63,7 +63,7 @@ function applyTiltEffect(card) {
   });
 }
 
-// Animaciones al cargar
+// Loading animation
 window.addEventListener('load', () => {
   setTimeout(() => {
     const navbar = document.querySelector('.navbar');
@@ -73,14 +73,14 @@ window.addEventListener('load', () => {
   }, 800);
 });
 
-// Menú burger
+// Burger menu
 const burger = document.querySelector('.burger');
 const navLinks = document.querySelector('.nav-links');
 burger.addEventListener('click', () => {
   navLinks.classList.toggle('show');
 });
 
-// Navbar sticky con scroll
+// Sticky Navbar
 window.addEventListener('scroll', () => {
   const navbar = document.querySelector('.navbar');
   if (window.scrollY > 50) {
@@ -90,7 +90,7 @@ window.addEventListener('scroll', () => {
   }
 });
 
-// Animaciones de aparición al hacer scroll
+// Scroll animation
 const elements = document.querySelectorAll('.cinematic-section');
 const observer = new IntersectionObserver((entries, obs) => {
   entries.forEach(entry => {

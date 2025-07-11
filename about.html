@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Growmate - Case Study</title>
+  <title>About Me</title>
   <link rel="stylesheet" href="../styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 </head>
 <body class="case-study-page">
+
   <!-- Navbar -->
   <nav class="navbar">
     <div class="nav-container">
@@ -24,6 +25,7 @@
       <i class="fas fa-arrow-left"></i> Back to Projects
   </a>
 
+<!-- about me -->
   <section class="split-section">
   <div class="split-image">
     <img src="./gear.jpg" alt="Descripción de la imagen">
@@ -65,7 +67,7 @@
         <a href= "mailto: elswordmon@gmail.com" class="boton footer-button-link"> 
           <button class="footer-btn red">Message Me</button>
         </a>
-        <a href="../CVA.pdf" target="_blank" class="boton footer-button-link">
+        <a href="./CVA.pdf" target="_blank" class="boton footer-button-link">
           <button class="footer-btn outline">Get my CV</button>
         </a>
     </div>
@@ -78,7 +80,7 @@
   </footer>
 
   <script>
-    // Menú burger
+    // Burger
     const burger = document.querySelector('.burger');
     const navLinks = document.querySelector('.nav-links');
     
@@ -88,7 +90,7 @@
       });
     }
 
-    // Navbar sticky
+    // Navbar
     window.addEventListener('scroll', () => {
       const navbar = document.querySelector('.navbar');
       if (window.scrollY > 50) {
@@ -98,7 +100,7 @@
       }
     });
 
-    // Inicializar navbar como visible
+    // Visible Navbar
     document.addEventListener('DOMContentLoaded', function() {
       const navbar = document.querySelector('.navbar');
       navbar.classList.add('visible');

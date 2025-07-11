@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body class="case-study-page">
+
   <!-- Navbar -->
   <nav class="navbar">
     <div class="nav-container">
@@ -20,6 +21,7 @@
       </ul>
     </div>
   </nav>
+  <!-- Back Buton -->
   <a href="../index.html" class="back-button">
       <i class="fas fa-arrow-left"></i> Back to Projects
   </a>
@@ -245,7 +247,7 @@
   </footer>
 
   <script>
-    // Menú burger
+    // Burger
     const burger = document.querySelector('.burger');
     const navLinks = document.querySelector('.nav-links');
     
@@ -255,7 +257,7 @@
       });
     }
 
-    // Navbar sticky
+    // Navbar
     window.addEventListener('scroll', () => {
       const navbar = document.querySelector('.navbar');
       if (window.scrollY > 50) {
@@ -265,7 +267,7 @@
       }
     });
 
-    // Inicializar navbar como visible
+    // Visible NavBar
     document.addEventListener('DOMContentLoaded', function() {
       const navbar = document.querySelector('.navbar');
       navbar.classList.add('visible');
