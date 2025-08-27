@@ -3,22 +3,22 @@ const projects = [
   {
     title: 'Growmate',
     image: './assets/growmate/image.project.png',
-    caseFile: './cases/growmate.html'
+    caseFile: './case.html?case=growmate'
   },
   {
     title: 'DocGo',
     image: './assets/DocGo/project-image.png',
-    caseFile: './cases/docgo.html'
+    caseFile: './case.html?case=docgo'
   },
   {
     title: 'FoodPoint',
     image: './assets/foodpoint/foodpoint-mockup2.png',
-    caseFile: './cases/foodpoint.html'
+    caseFile: './case.html?case=foodpoint'
   },
   {
     title: 'GastroLab',
     image: './assets/gastrolab/image-projects.png',
-    caseFile: './cases/gastrolab.html'
+    caseFile: './case.html?case=gastrolab'
   }
 ];
 
