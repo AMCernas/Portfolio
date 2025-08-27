@@ -46,15 +46,15 @@ const cases = {
           <h4>Applications Analyzed</h4>
           <div class="apps-grid">
             <div class="app-item">
-              <img src="../assets/growmate/AA1.png" alt="Planter icon">
+              <img src="./assets/growmate/AA1.png" alt="Planter icon">
               <p>Planter</p>
             </div>
             <div class="app-item">
-              <img src="../assets/growmate/AA2.png" alt="Plant Parent icon">
+              <img src="./assets/growmate/AA2.png" alt="Plant Parent icon">
               <p>Plant Parent</p>
             </div>
             <div class="app-item">
-              <img src="../assets/growmate/AA3.jpg" alt="Mi Huerta icon">
+              <img src="./assets/growmate/AA3.jpg" alt="Mi Huerta icon">
               <p>Mi Huerta</p>
             </div>
           </div>
@@ -80,9 +80,9 @@ const cases = {
           We explored a wide range of solutions through brainstorming sessions, sketching, and affinity mapping, focusing on ways to simplify navigation, streamline reminders, and embed community features.
         </p>
         <section class="image-grid">
-          <img class="item item1" src="../assets/growmate/sketch1.jpg" alt="" />
-          <img class="item item2" src="../assets/growmate/sketch2.jpg" alt="" />
-          <img class="item item3" src="../assets/growmate/sketch3.jpg" alt="" />
+          <img class="item item1" src="./assets/growmate/sketch1.jpg" alt="" />
+          <img class="item item2" src="./assets/growmate/sketch2.jpg" alt="" />
+          <img class="item item3" src="./assets/growmate/sketch3.jpg" alt="" />
         </section>
         `
       },
@@ -98,8 +98,8 @@ const cases = {
             We sketched low‑fidelity wireframes on paper to rapidly explore layout options and content hierarchies. Each sheet focused on a specific user flow—onboarding, home dashboard, plant detail, reminders, and community feed.
             </p>
             <section class="image-grid">
-            <img class="item item2" src="../assets/growmate/pw1.jpg" alt="" />
-            <img class="item item3" src="../assets/growmate/pw2.jpg" alt="" />
+            <img class="item item2" src="./assets/growmate/pw1.jpg" alt="" />
+            <img class="item item3" src="./assets/growmate/pw2.jpg" alt="" />
             </section>
             <br>
             <h4>Digital Wireframes</h4>
@@ -107,11 +107,11 @@ const cases = {
             We sketched low fidelity wireframes on paper to rapidly explore layout options and content hierarchies. Each sheet focused on a specific user flow—onboarding, home dashboard, plant detail, reminders, and community feed.
             </p>
             <section class="image-flex">
-            <img src="../assets/growmate/dw1.png" alt="" />
-            <img src="../assets/growmate/dw2.png" alt="" />
-            <img src="../assets/growmate/dw3.png" alt="" />
-            <img src="../assets/growmate/dw4.png" alt="" />
-            <img src="../assets/growmate/dw5.png" alt="" />
+            <img src="./assets/growmate/dw1.png" alt="" />
+            <img src="./assets/growmate/dw2.png" alt="" />
+            <img src="./assets/growmate/dw3.png" alt="" />
+            <img src="./assets/growmate/dw4.png" alt="" />
+            <img src="./assets/growmate/dw5.png" alt="" />
             </section>
             <br>
             <h4>Prototype and usability test</h4>
@@ -124,7 +124,7 @@ const cases = {
             The main issue users faced was navigating the app due to unlabeled icons 5 out of 5 participants struggled with this highlighting the urgent need  to add clear text labels or universally recognizable icons to the navigation bar. Additionally, with 4 out of 5 participants finding the layout unclear and functions hard to locate , it’s important to improve screen organization by adding descriptive headers, grouping related features, and making key actions like posting or setting reminders more prominent and clearly labeled.
             </p>
             <br>
-            <img class="gif" src="../assets/growmate/dwproto.gif" alt="">
+            <img class="gif" src="./assets/growmate/dwproto.gif" alt="">
         `
       },
       {
@@ -134,7 +134,7 @@ const cases = {
             After analyzing usability test results, we made several iterations focused on improving navigation clarity, enhancing layout organization, and making key features easier to access.
             </p>
             <br>
-            <img class="conclusion-img" src="../assets/growmate/iterations.png" alt="">
+            <img class="conclusion-img" src="./assets/growmate/iterations.png" alt="">
         `
       },
       {
@@ -144,7 +144,7 @@ const cases = {
             This project reinforced the value of accessible design, intuitive structure, and iterative testing to support users through a satisfying and empowering experience.
             </p>
             <br>
-            <img class="conclusion-img" src="../assets/growmate/conclusion.png" alt="">
+            <img class="conclusion-img" src="./assets/growmate/conclusion.png" alt="">
         `
       }
     ],
@@ -195,9 +195,9 @@ const cases = {
             </p>
 
             <section class="image-flex">
-            <img src="../assets/DocGo/empathymap 1.png" alt="" />
-            <img src="../assets/DocGo/empathymap 2.png" alt="" />
-            <img src="../assets/DocGo/empathymap 3.png" alt="" />
+            <img src="./assets/DocGo/empathymap 1.png" alt="" />
+            <img src="./assets/DocGo/empathymap 2.png" alt="" />
+            <img src="./assets/DocGo/empathymap 3.png" alt="" />
             </section>
 
             <section class="insights-section">
@@ -226,7 +226,7 @@ const cases = {
             <p>
             Our user flows mapped out  users type journey whether checking in for themselves, managing dependents, or completing health screenings.
             </p>
-            <img src="../assets/DocGo/userflowexample.png" alt="" />
+            <img src="./assets/DocGo/userflowexample.png" alt="" />
             <br>
 
             <h4>Prioritization</h4>
@@ -248,14 +248,14 @@ const cases = {
             <p>
             We built a clear sitemap based on our user needs and flows, keeping navigation simple and familiar. Users valued clarity and expected a straightforward layout. The sitemap influenced the visual hierarchy of the interface and made room for context-rich pages like “About Clinic” and “Services.”
             </p>
-            <img  src="../assets/DocGo/sitemap.png" alt="" />
+            <img  src="./assets/DocGo/sitemap.png" alt="" />
             <br>
 
             <h4>Paper wireframes</h4>
             <p>
             Paper wireframes were used early. Low-fidelity testing let us gather quick feedback without investing time in detailed visuals. Helped identify redundant steps early on,
             </p>
-            <img src="../assets/DocGo/paperwireframedocgo.png" alt="" />
+            <img src="./assets/DocGo/paperwireframedocgo.png" alt="" />
             <br>
 
             <h4>Digital Wireframes</h4>
@@ -263,9 +263,9 @@ const cases = {
             After creating our paper wireframes, I created digital wireframes to visualize the structure of the app. These wireframes helped define key screens, such as the Home, Check-In Flow, Appointment Selection, and Account Management.
             </p>
             <section class="image-grid">
-            <img class="item item1" src="../assets/DocGo/account.png" alt="" />
-            <img class="item item2" src="../assets/DocGo/checkin1.png" alt="" />
-            <img class="item item3" src="../assets/DocGo/home.png" alt="" />
+            <img class="item item1" src="./assets/DocGo/account.png" alt="" />
+            <img class="item item2" src="./assets/DocGo/checkin1.png" alt="" />
+            <img class="item item3" src="./assets/DocGo/home.png" alt="" />
             </section>
             <br>
 
@@ -279,7 +279,7 @@ const cases = {
             To evaluate usability, I conducted a moderated usability test with participants that reflected our key user personas, including parents, caregivers, and older adults. During the test, users completed tasks such as checking in themselves or a dependent, answering screening questions, and reviewing their confirmation. The feedback revealed that users appreciated the step-by-step guidance and clear progress indicators, while some requested more detailed descriptions under service options. Others expected to see previous appointments during the process, and many expressed a strong preference for receiving confirmation details via email. These insights led to design improvements such as clarifying service descriptions, adding email confirmation functionality, and exploring persistent profiles with appointment history.
             </p>
             <br>
-            <img class="gif" src="../assets/DocGo/lofi prototype gif.gif" alt="">
+            <img class="gif" src="./assets/DocGo/lofi prototype gif.gif" alt="">
         `
       },
       {
@@ -289,7 +289,7 @@ const cases = {
             Iterative design allowed us to made several iterations based on user feedback and testing insights. Each iteration helped align the design more closely with real user needs, enhancing both usability and user confidence.
             </p>
             <br>
-            <img class="conclusion-img" src="../assets/DocGo/iterations png.png" alt="">
+            <img class="conclusion-img" src="./assets/DocGo/iterations png.png" alt="">
         `
       },
       {
@@ -299,7 +299,7 @@ const cases = {
             Designing DocGo highlighted the value of grounding every design decision in real user needs. By applying the design thinking process from research to testing I learned how even small usability details can greatly impact user trust and satisfaction. It also reinforced the importance of designing for inclusivity, ensuring that busy parents, caregivers, and older adults all feel supported throughout the experience.
             </p>
             <br>
-            <img class="gif" src="../assets/DocGo/gif hifi protoype.gif" alt="">
+            <img class="gif" src="./assets/DocGo/gif hifi protoype.gif" alt="">
         `
       }
     ],
@@ -346,13 +346,13 @@ const cases = {
             Develop a comprehensive digital solution for restaurants that allows them to record orders, view their status in the kitchen, and generate sales reports, all from a centralized interface.
             </p>
             <br>
-            <img class="center-logo-img" src="../assets/foodpoint/foodpointlogo.svg" alt="">
+            <img class="center-logo-img" src="./assets/foodpoint/foodpointlogo.svg" alt="">
         `
       },
       {
         heading: "Functionalities",
         content: `
-            <img src="../assets/foodpoint/home.png" alt="">
+            <img src="./assets/foodpoint/home.png" alt="">
 
             <br>
 
@@ -361,7 +361,7 @@ const cases = {
             It allows you to generate orders based on the products entered, facilitating order taking.
             </p>
             <br>
-            <img src="../assets/foodpoint/service.png" alt="">
+            <img src="./assets/foodpoint/service.png" alt="">
 
 
             <br>
@@ -371,7 +371,7 @@ const cases = {
             Cooks can view active orders and update their status (e.g., "in preparation," "ready to serve").
             </p>
             <br>
-            <img src="../assets/foodpoint/kitchen.png" alt="">
+            <img src="./assets/foodpoint/kitchen.png" alt="">
 
 
             <br>
@@ -381,7 +381,7 @@ const cases = {
             It offers statistics and reports on sales, helping you gain control and insight into business performance.
             </p>
             <br>
-            <img src="../assets/foodpoint/reports.png" alt="">
+            <img src="./assets/foodpoint/reports.png" alt="">
       `
       },
       {
@@ -411,7 +411,7 @@ const cases = {
             The team adopted an extremely collaborative approach in which all members worked simultaneously, taking turns writing code while the rest of the team contributed ideas and reviews in real time. This allowed for higher code quality, faster issue resolution, and shared learning.
             </p>
             <br>
-            <img class="gif" src="../assets/foodpoint/mob-programming.jpg" alt="">
+            <img class="gif" src="./assets/foodpoint/mob-programming.jpg" alt="">
       `
       },
       {
@@ -426,7 +426,7 @@ const cases = {
                 </div>
             </section>
             <br>
-            <img class="gif" src="../assets/foodpoint/foodpointgif.gif" alt="">
+            <img class="gif" src="./assets/foodpoint/foodpointgif.gif" alt="">
         `
       }
     ],
@@ -471,35 +471,35 @@ const cases = {
           To build a user-friendly mobile app that enables culinary enthusiasts to document, share, and explore recipes while fostering a community of home chefs.
         </p>
         <br>
-        <img class="center-logo-img" src="../assets/gastrolab/icon.jpg" alt="">
+        <img class="center-logo-img" src="./assets/gastrolab/icon.jpg" alt="">
         `
       },
       {
         heading: "Functionalities",
         content: `
         <br>
-        <img class="center-logo-img" src="../assets/gastrolab/home.png" alt="">
+        <img class="center-logo-img" src="./assets/gastrolab/home.png" alt="">
         <br>
         <h4>Recipe Creation</h4>
         <p>
           Users can easily create and document their recipes with steps, ingredients, and images.
         </p>
         <br>
-        <img class="center-logo-img" src="../assets/gastrolab/createrecipe1.png" alt="">
+        <img class="center-logo-img" src="./assets/gastrolab/createrecipe1.png" alt="">
         <br>
         <h4>Community Sharing</h4>
         <p>
           Share your culinary creations with others and get inspired by recipes from fellow users.
         </p>
         <br>
-        <img class="center-logo-img" src="../assets/gastrolab/details1.png" alt="">
+        <img class="center-logo-img" src="./assets/gastrolab/details1.png" alt="">
         <br>
         <h4>Interactive UI</h4>
         <p>
           Intuitive design with smooth navigation and engaging visuals tailored for food content.
         </p>
         <br>
-        <img class="center-logo-img" src="../assets/gastrolab/createrecipe4.png" alt="">
+        <img class="center-logo-img" src="./assets/gastrolab/createrecipe4.png" alt="">
       `
       },
       {
@@ -529,7 +529,7 @@ const cases = {
             The team adopted an agile approach, focusing on iterative development and constant feedback. We worked in short sprints with regular stand-ups, retrospectives, and continuous integration to ensure smooth progress and adaptability to change.
             </p>
             <br>
-            <img class="gif" src="../assets/gastrolab/agile.png" alt="">
+            <img class="gif" src="./assets/gastrolab/agile.png" alt="">
       `
       },
       {
@@ -544,7 +544,7 @@ const cases = {
                 </div>
             </section>
             <br>
-            <img class="conclusion-img center-logo-img" src="../assets/gastrolab/home.png" alt="">
+            <img class="conclusion-img center-logo-img" src="./assets/gastrolab/home.png" alt="">
         `
       }
     ],
